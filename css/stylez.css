@@ -1,5 +1,5 @@
     .main-Container {
-        background-color: #f0faff;
+        background-color: #ccd2d4;
         padding-left: 2%;
         padding-bottom: 2%;
         padding-right: 2%;
@@ -121,4 +121,21 @@
     .btn-yellow:hover {
         background-color: rgb(173, 173, 2);
         color: white;
+    }
+    
+    .cards {
+        background-size: 100% auto;
+        padding-bottom: 2%;
+        padding-top: 2%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    
+    .main-page-content {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .headings-main-content {
+        text-align: center;
     }
