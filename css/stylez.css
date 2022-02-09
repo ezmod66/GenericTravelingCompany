@@ -130,12 +130,11 @@
         margin-left: 5%;
         margin-right: 5%;
     }
-    
-    .main-page-content {
+    /* .main-page-content {
         display: flex;
         flex-direction: column;
         padding-top: 3%;
-    }
+    } */
     
     .headings-main-content {
         text-align: center;
@@ -144,6 +143,7 @@
         display: flex;
         flex-direction: column;
         justify-content: center;
+        background-color: whitesmoke;
     }
     
     .card-body-center {
@@ -158,4 +158,44 @@
     
     .center-content h2 {
         font-size: 45px;
+    }
+    
+    .spacer {
+        height: 430px;
+        padding-top: 2%;
+        padding-bottom: 2%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    
+    .profile-img {
+        width: 250px;
+        border-radius: 7px;
+        border: solid black 2px
+    }
+    
+    .our-proffessionals {
+        background-color: whitesmoke;
+    }
+    
+    .our-proffessionals h2 {
+        text-align: center;
+        padding-bottom: 2%;
+    }
+    
+    .col-lg-3 {
+        text-align: center;
+    }
+    
+    .col-lg-3 h4 {
+        padding-top: 7%;
+    }
+    
+    .our-values h4 {
+        text-align: center;
+        padding-top: 2%;
+    }
+    
+    .our-values {
+        height: 430px;
     }
