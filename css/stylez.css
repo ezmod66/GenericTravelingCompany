@@ -1,201 +1,273 @@
-    .main-Container {
-        background-color: #050505;
-        padding-left: 2%;
-        padding-bottom: 2%;
-        padding-right: 2%;
-        padding-top: 2%;
-        font-family: Arial, Helvetica, sans-serif;
-    }
-    
-    .text-align-center {
-        text-align: center;
-        padding-bottom: 2%;
-    }
-    
-    .nav-font-size {
-        font-size: 14px;
-        text-align: center;
-        text-decoration: none;
-    }
-    
-    .navbar {
-        display: flex;
-        justify-content: flex-end;
-        align-items: baseline;
-    }
-    
-    .nice-border {
-        border-radius: 7px
-    }
-    
-    .navBar ul {
-        list-style: none;
-        display: inline-flex
-    }
-    
-    .nav-a {
-        padding-right: 5%;
-        text-decoration: none;
-    }
-    
-    .nav-heading-title-container {
-        display: flex;
-        width: auto;
-        height: auto;
-        justify-content: space-between;
-    }
-    
-    .heading-title {
-        display: inline-block;
-    }
-    
-    .nav-search-form {
-        display: inline-block;
-    }
-    
-    .nav-cont {
-        width: 50%;
-        height: 100%;
-    }
-    
-    .nav-cont ul {
-        text-decoration: none;
-        list-style: none;
-        position: relative;
-        display: block;
-        align-items: center;
-    }
-    
-    .nav-cont ul li a {
-        float: left;
-        color: #212529;
-    }
-    /*Carosal and IMG*/
-    
-    .carosal-img {
-        width: 100%;
-        height: 350px;
-        object-fit: cover;
-        border-radius: 7px;
-    }
-    
-    .carosal-padding {
-        padding-top: 2%;
-    }
-    /*Card icoon img sizes*/
-    
-    .card-icon-img {
-        height: 178px;
-        width: 290px;
-    }
-    /*enquiry section*/
-    
-    .enquire-box {
-        background: #1c61a6 url(../img/bg.png) fixed no-repeat;
-        padding: 80px 0;
-        background-size: 100% auto;
-        background-position: center;
-    }
-    
-    .enquiry-title {
-        margin-bottom: 30px;
-        text-align: center;
-    }
-    
-    .enquire-box .btn {
-        padding: 13px 40px;
-        margin-top: 30px;
-    }
-    
-    .btn-yellow {
-        background-color: rgb(255, 208, 0) !important;
-        color: #333 !important;
-        border-radius: 46px !important;
-        font-weight: 700 !important;
-    }
-    
-    .h4-enquiry {
-        font-size: 44px;
-    }
-    
-    .btn-yellow:hover {
-        background-color: rgb(173, 173, 2);
-        color: white;
-    }
-    
-    .cards {
-        background-size: 100% auto;
-        padding-bottom: 2%;
-        padding-top: 2%;
-        margin-left: 5%;
-        margin-right: 5%;
-    }
-    /* .main-page-content {
+   h2 {
+       font-family: 'Montserrat', sans-serif;
+   }
+   
+   .main-Container {
+       background-color: #050505;
+       padding-left: 2%;
+       padding-bottom: 2%;
+       padding-right: 2%;
+       padding-top: 2%;
+       font-family: Arial, Helvetica, sans-serif, light 300;
+   }
+   
+   .text-align-center {
+       text-align: center;
+       padding-bottom: 2%;
+   }
+   
+   .nav-font-size {
+       font-size: 14px;
+       text-align: center;
+       text-decoration: none;
+   }
+   
+   .navbar {
+       display: flex;
+       justify-content: flex-end;
+       align-items: baseline;
+   }
+   
+   .nice-border {
+       border-radius: 7px
+   }
+   
+   .navBar ul {
+       list-style: none;
+       display: inline-flex
+   }
+   
+   .nav-a {
+       padding-right: 5%;
+       text-decoration: none;
+   }
+   
+   .nav-heading-title-container {
+       display: flex;
+       width: auto;
+       height: auto;
+       justify-content: space-between;
+   }
+   
+   .heading-title {
+       display: inline-block;
+   }
+   
+   .nav-search-form {
+       display: inline-block;
+   }
+   
+   .nav-cont {
+       width: 50%;
+       height: 100%;
+   }
+   
+   .nav-cont ul {
+       text-decoration: none;
+       list-style: none;
+       position: relative;
+       display: block;
+       align-items: center;
+   }
+   
+   .nav-cont ul li a {
+       float: left;
+       color: #212529;
+   }
+   /*Carosal and IMG*/
+   
+   .carosal-img {
+       width: 100%;
+       height: 350px;
+       object-fit: cover;
+       border-radius: 7px;
+   }
+   
+   .carosal-padding {
+       padding-top: 2%;
+   }
+   /*Card icoon img sizes*/
+   
+   .card-icon-img {
+       height: 178px;
+       width: 290px;
+   }
+   /*enquiry section*/
+   
+   .enquire-box {
+       background: #1c61a6 url(../img/bg.png) fixed no-repeat;
+       padding: 80px 0;
+       background-size: 100% auto;
+       background-position: center;
+   }
+   
+   .enquiry-title {
+       margin-bottom: 30px;
+       text-align: center;
+   }
+   
+   .enquire-box .btn {
+       padding: 13px 40px;
+       margin-top: 30px;
+   }
+   
+   .btn-yellow {
+       background-color: rgb(255, 208, 0) !important;
+       color: #333 !important;
+       border-radius: 46px !important;
+       font-weight: 700 !important;
+   }
+   
+   .h4-enquiry {
+       font-size: 44px;
+   }
+   
+   .btn-yellow:hover {
+       background-color: rgb(173, 173, 2);
+       color: white;
+       font-family: montserrat, light 300;
+   }
+   
+   .cards {
+       background-size: 100% auto;
+       padding-bottom: 2%;
+       padding-top: 2%;
+       margin-left: 5%;
+       margin-right: 5%;
+   }
+   /* .main-page-content {
         display: flex;
         flex-direction: column;
         padding-top: 3%;
     } */
-    
-    .headings-main-content {
-        text-align: center;
-        height: 430px;
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        background-color: whitesmoke;
-    }
-    
-    .card-body-center {
-        position: relative;
-        text-align: center;
-        font-size: 15px;
-    }
-    
-    .nice-border img {
-        border-radius: 7px;
-    }
-    
-    .center-content h2 {
-        font-size: 45px;
-    }
-    
-    .spacer {
-        height: 430px;
-        padding-top: 2%;
-        padding-bottom: 2%;
-        margin-left: 5%;
-        margin-right: 5%;
-    }
-    
-    .profile-img {
-        width: 250px;
-        border-radius: 7px;
-        border: solid black 2px
-    }
-    
-    .our-proffessionals {
-        background-color: whitesmoke;
-    }
-    
-    .our-proffessionals h2 {
-        text-align: center;
-        padding-bottom: 2%;
-    }
-    
-    .col-lg-3 {
-        text-align: center;
-    }
-    
-    .col-lg-3 h4 {
-        padding-top: 7%;
-    }
-    
-    .our-values h4 {
-        text-align: center;
-        padding-top: 2%;
-    }
-    
-    .our-values {
-        height: 430px;
-    }
+   
+   .headings-main-content {
+       text-align: center;
+       height: 430px;
+       width: 100%;
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       background-color: whitesmoke;
+   }
+   
+   .card-body-center {
+       position: relative;
+       text-align: center;
+       font-size: 15px;
+   }
+   
+   .nice-border img {
+       border-radius: 7px;
+   }
+   
+   .center-content h2 {
+       font-size: 45px;
+   }
+   
+   .spacer {
+       height: 430px;
+       padding-top: 2%;
+       padding-bottom: 2%;
+       margin-left: 5%;
+       margin-right: 5%;
+   }
+   
+   .profile-img {
+       width: 250px;
+       border-radius: 7px;
+       border: solid black 2px
+   }
+   
+   .our-proffessionals {
+       background-color: whitesmoke;
+       padding-bottom: 3%;
+   }
+   
+   .our-proffessionals h2 {
+       text-align: center;
+       padding-bottom: 2%;
+       padding-top: 5%;
+       font-family: montserrat, black;
+   }
+   
+   .our-proffessionals h4 {
+       font-family: montserrat, black 900;
+       font-size: 18px;
+   }
+   
+   .our-proffessionals p {
+       font-family: montserrat, light;
+   }
+   
+   .col-lg-3 {
+       text-align: center;
+   }
+   
+   .col-lg-3 h4 {
+       padding-top: 7%;
+   }
+   
+   .our-values h4 {
+       text-align: center;
+       padding-top: 10%;
+       padding-bottom: 3%;
+       font-family: montserrat, black;
+   }
+   
+   .our-values p {
+       font-family: montserrat, black;
+   }
+   
+   .our-values {
+       height: 430px;
+   }
+   
+   .preview-Content {
+       padding-top: 3%;
+   }
+   
+   .enquiry-title h4 {
+       font-family: montserrat, black;
+   }
+   
+   .footer {
+       width: 100%;
+       position: relative;
+       margin: 0 auto;
+   }
+   
+   .footer ul {
+       padding-left: 0;
+       list-style: none;
+       margin-top: 0;
+       margin-bottom: 10px;
+   }
+   
+   .footer li {
+       text-decoration: none;
+       list-style: none;
+       color: rgb(141, 141, 141);
+       text-align: left;
+   }
+   
+   .footer h4 {
+       color: whitesmoke;
+   }
+   
+   .footer-covid-background {
+       background-color: whitesmoke;
+   }
+   
+   .covid {
+       text-align: center;
+   }
+   
+   .padding-block {
+       padding: 30px 0 30px 0;
+       background-color: #222222;
+   }
+   
+   .container-fluid {
+       width: 85% !important;
+   }
