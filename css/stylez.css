@@ -149,6 +149,7 @@
        flex-direction: column;
        justify-content: center;
        background-color: whitesmoke;
+       overflow: auto;
    }
    
    .card-body-center {
@@ -221,6 +222,7 @@
    
    .our-values {
        height: 430px;
+       overflow: auto;
    }
    
    .preview-Content {
