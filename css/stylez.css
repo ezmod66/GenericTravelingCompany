@@ -177,8 +177,10 @@
    .profile-img {
        width: 250px;
        border-radius: 7px;
-       border: solid black 2px
+       border: solid black 2px;
+       align-self: center;
    }
+   /* Our Experienced Professionals*/
    
    .our-proffessionals {
        background-color: whitesmoke;
@@ -187,7 +189,7 @@
    
    .our-proffessionals h2 {
        text-align: center;
-       padding-bottom: 2%;
+       padding-bottom: 4%;
        padding-top: 5%;
        font-family: montserrat, black;
    }
@@ -195,10 +197,20 @@
    .our-proffessionals h4 {
        font-family: montserrat, black 900;
        font-size: 18px;
+       text-align: center;
+       padding-top: 5%;
+       padding-bottom: 3%;
    }
    
    .our-proffessionals p {
        font-family: montserrat, light;
+       text-align: center;
+   }
+   
+   .our-proffessionals-row {
+       display: flex;
+       align-content: flex-start;
+       flex-direction: column;
    }
    
    .col-lg-3 {
