@@ -1,5 +1,17 @@
    h2 {
        font-family: 'Montserrat', sans-serif;
+       text-align: center;
+       padding-top: 5%;
+       font-size: 45px !important;
+       color: #050505;
+   }
+   
+   h4 {
+       text-align: center;
+       padding-top: 5%;
+       padding-bottom: 5%;
+       font-family: montserrat, black;
+       font-size: 35px;
    }
    
    .main-Container {
@@ -56,24 +68,6 @@
    .nav-search-form {
        display: inline-block;
    }
-   
-   .nav-cont {
-       width: 50%;
-       height: 100%;
-   }
-   
-   .nav-cont ul {
-       text-decoration: none;
-       list-style: none;
-       position: relative;
-       display: block;
-       align-items: center;
-   }
-   
-   .nav-cont ul li a {
-       float: left;
-       color: #212529;
-   }
    /*Carosal and IMG*/
    
    .carosal-img {
@@ -118,10 +112,6 @@
        font-weight: 700 !important;
    }
    
-   .h4-enquiry {
-       font-size: 44px;
-   }
-   
    .btn-yellow:hover {
        background-color: rgb(173, 173, 2);
        color: white;
@@ -162,10 +152,6 @@
        border-radius: 7px;
    }
    
-   .center-content h2 {
-       font-size: 45px;
-   }
-   
    .spacer {
        height: 430px;
        padding-top: 2%;
@@ -185,21 +171,7 @@
    .our-proffessionals {
        background-color: whitesmoke;
        padding-bottom: 3%;
-   }
-   
-   .our-proffessionals h2 {
-       text-align: center;
-       padding-bottom: 4%;
-       padding-top: 5%;
-       font-family: montserrat, black;
-   }
-   
-   .our-proffessionals h4 {
-       font-family: montserrat, black 900;
-       font-size: 18px;
-       text-align: center;
-       padding-top: 5%;
-       padding-bottom: 3%;
+       border-bottom: 1px solid #dee2e6
    }
    
    .our-proffessionals p {
@@ -218,16 +190,8 @@
        text-align: center;
    }
    
-   .col-lg-3 h4 {
-       padding-top: 7%;
-   }
-   
    .preview-Content {
        padding-top: 3%;
-   }
-   
-   .enquiry-title h4 {
-       font-family: montserrat, black;
    }
    
    .footer {
@@ -271,33 +235,41 @@
    } */
    /*who we are                                                     ----------------------*/
    
-   .our-values h2 {
-       text-align: center;
-       padding-top: 5%;
-       font-family: montserrat, black;
-       font-size: 45px;
-   }
-   
-   .our-values h4 {
-       text-align: center;
-       padding-top: 5%;
-       padding-bottom: 5%;
-       font-family: montserrat, black;
-       font-size: 35px;
-   }
-   
    .our-values p {
-       text-align: left;
+       /* text-align: left; */
        font-family: montserrat, black;
    }
    
    .our-values {
        padding-bottom: 5%;
-       border-bottom: 1px solid black;
+       border-bottom: 1px solid #dee2e6
    }
    /*footer ------------------------------------------------------------------------------------------------------------------------------------------*/
    
    .footer li a {
        text-decoration: none;
        list-style: none;
+   }
+   /* Other */
+   
+   .aborder-right {
+       border-right: 0.5px solid #fff;
+   }
+   
+   .aborder-left {
+       border-left: 0.5px solid #fff;
+   }
+   
+   .aborder-top {
+       border-top: 0.5px solid #fff;
+   }
+   
+   .logo-in-nav {
+       text-align: center;
+       padding-bottom: 1.5%;
+   }
+   
+   .services-text a {
+       text-decoration: none;
+       color: #fff;
    }
