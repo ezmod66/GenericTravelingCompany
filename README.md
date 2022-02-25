@@ -11,4 +11,5 @@ Making use of bootstrap, custom css, html for now thinking of adding some db stu
   <li>Boostrap 5</li>
   <li>css</li>
   <li>html</li>
+  <li><p>Improvement to positioning and usage of css</p></li>
 </ul>
